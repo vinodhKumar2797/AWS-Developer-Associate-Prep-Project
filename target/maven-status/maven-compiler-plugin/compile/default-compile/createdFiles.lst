@@ -1,0 +1,4 @@
+com/cloud/tracker/controller/AwsIdentityController.class
+com/cloud/tracker/controller/Ec2Controller.class
+com/cloud/tracker/config/AwsConfig.class
+com/cloud/tracker/CloudTrackerApplication.class

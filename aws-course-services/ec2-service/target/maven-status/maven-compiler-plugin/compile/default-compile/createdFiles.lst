@@ -1,0 +1,5 @@
+com/aws/course/ec2/config/Ec2Config.class
+com/aws/course/ec2/controller/InstanceController.class
+com/aws/course/ec2/Ec2ServiceApplication.class
+com/aws/course/ec2/model/InstanceDto.class
+com/aws/course/ec2/service/Ec2ComputeService.class
