@@ -23,6 +23,7 @@
     <modules>
         <module>iam-service</module>
         <module>ec2-service</module>
+        <module>route53-service</module>
     </modules>
 
 	<dependencies>
