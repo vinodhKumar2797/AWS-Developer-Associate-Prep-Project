@@ -34,8 +34,8 @@ public class Route53Service {
     public String createDnsRecord(String hostedZoneId, String recordName, String recordValue, String type) {
         ResourceRecord resourceRecord = ResourceRecord.builder().value(recordValue).build();
 
-        ResourceRecordSet resourceRecordSet = ResourceRecordSet.builder().name(recordName)
-                .type(RecordType.fromValue(type)).ttl(300L).resourceRecords(resourceRecord).build();
+        ResourceRecordSet resourceRecordSet = ResourceRecordSet.builder().name(recordName).type(RRType.fromValue(type))
+                .ttl(300L).resourceRecords(resourceRecord).build();
 
         Change change = Change.builder().action(ChangeAction.CREATE).resourceRecordSet(resourceRecordSet).build();
 

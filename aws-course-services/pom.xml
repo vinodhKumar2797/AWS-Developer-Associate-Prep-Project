@@ -24,6 +24,7 @@
         <module>iam-service</module>
         <module>ec2-service</module>
         <module>route53-service</module>
+        <module>vpc-service</module>
     </modules>
 
 	<dependencies>
