@@ -9,19 +9,26 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ec2-service</artifactId>
-    <description>Service for Section 5 &amp; 6: EC2 &amp; Instance Storage</description>
+    <artifactId>common-lib</artifactId>
+    <description>Common library for shared infrastructure</description>
 
     <dependencies>
-        <!-- AWS SDK for EC2 -->
         <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>ec2</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.aws.course</groupId>
-            <artifactId>common-lib</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>utils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>sdk-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

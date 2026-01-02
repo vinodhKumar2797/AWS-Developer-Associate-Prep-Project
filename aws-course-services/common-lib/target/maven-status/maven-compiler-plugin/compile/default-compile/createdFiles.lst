@@ -1,0 +1,2 @@
+com/aws/course/common/config/LoggingConfig.class
+com/aws/course/common/interceptor/AwsLoggingInterceptor.class

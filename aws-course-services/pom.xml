@@ -25,6 +25,7 @@
         <module>ec2-service</module>
         <module>route53-service</module>
         <module>vpc-service</module>
+        <module>common-lib</module>
     </modules>
 
 	<dependencies>
