@@ -26,6 +26,7 @@
         <module>route53-service</module>
         <module>vpc-service</module>
         <module>common-lib</module>
+        <module>s3-service</module>
     </modules>
 
 	<dependencies>

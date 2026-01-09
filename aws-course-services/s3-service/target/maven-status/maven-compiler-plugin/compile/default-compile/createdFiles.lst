@@ -1,0 +1,4 @@
+com/aws/course/s3/S3Application.class
+com/aws/course/s3/controller/S3Controller.class
+com/aws/course/s3/config/S3Config.class
+com/aws/course/s3/service/S3Service.class
